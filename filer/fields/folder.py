@@ -79,7 +79,7 @@ class AdminFolderWidget(ForeignKeyRawIdWidget):
         return obj
 
     class Media(object):
-        js = (static('filer/js/addons/popup_handling.js'), )
+        js = ('filer/js/addons/popup_handling.js', )
 
 
 class AdminFolderFormField(forms.ModelChoiceField):
